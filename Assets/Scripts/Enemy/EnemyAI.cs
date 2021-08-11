@@ -60,6 +60,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (Time.time > nextAttack)
         {
+            if (_player == null) return;
             var health = _player.GetComponent<UniversalHealth>();
             if (health != null)
             {

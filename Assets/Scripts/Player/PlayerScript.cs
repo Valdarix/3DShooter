@@ -17,7 +17,6 @@ public class PlayerScript : MonoBehaviour
     private Vector3 _velocity;
     private bool _groundedPlayer;
     private Camera _mainCamera;
-    
 
     private void Start()
     {
